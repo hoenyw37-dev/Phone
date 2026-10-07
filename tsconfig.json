@@ -1,0 +1,48 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "strict": false,
+  "allowSyntheticDefaultImports": true,
+  "skipLibCheck": true,
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "paths": {
+      "@app/*": [
+        "app/*"
+      ],
+      "@base/*": [
+        "app/base/*"
+      ],
+      "@powerstrike/*": [
+        "app/powerstrike/*"
+      ],
+      "@faastflex/*": [
+        "app/faastflex/*"
+      ],
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@global/*": [
+        "global/*"
+      ],
+      "@styles/*": [
+        "styles/*"
+      ],
+      "@types/*": [
+        "types/*"
+      ],
+      "@ff_controllers/*": ["app/faastflex/controllers/*"],
+      "@ff_dataAccess/*": ["app/faastflex/dataAccess/*"],
+      "@ff_model/*": ["app/faastflex/model/*"],
+      "@ff_screens/*": ["app/faastflex/screens/*"],
+      "@ff_utils/*": ["app/faastflex/utils/*"],
+      "@ff_redux/*": ["app/faastflex/redux/*"],
+      "@faastflexCommands/*": ["faastflexCommands/*"],
+      "@faastflexCommunicator/*": ["faastflexCommunicator/*"]
+    }
+  }
+}
